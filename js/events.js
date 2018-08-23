@@ -8,6 +8,10 @@ function frameIt(){
   $('img').onload = $('img').addClass('tasty')
 }
 
+function pressIt(){
+  $('input')
+}
+
 $(document).ready(function(){
 
 getIt()
