@@ -5,14 +5,11 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load', function(){
-    addClass('tasty')
-  })
+  document.querySelector('img').onload = this.class
 }
 
 $(document).ready(function(){
 
 getIt()
 frameIt()
-
 });
