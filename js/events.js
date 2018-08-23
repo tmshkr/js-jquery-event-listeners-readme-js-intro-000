@@ -16,7 +16,9 @@ function pressIt(){
 }
 
 function submitIt(){
-  
+  $('form').on('submit', function(){
+    alert('g was pressed')
+  })
 }
 
 $(document).ready(function(){
