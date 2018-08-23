@@ -5,7 +5,7 @@ function getIt(){
 }
 
 function frameIt(){
-  document.querySelector('img').onload = console.log(this)
+  $('img').onload = $('img').addClass('tasty')
 }
 
 $(document).ready(function(){
