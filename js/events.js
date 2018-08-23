@@ -9,7 +9,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('input')
+  $('#typing').on()
 }
 
 $(document).ready(function(){
