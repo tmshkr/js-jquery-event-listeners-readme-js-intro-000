@@ -9,9 +9,10 @@ function frameIt(){
     addClass('tasty')
   })
 }
-frameIt()
 
 $(document).ready(function(){
 
 getIt()
+frameIt()
+
 });
